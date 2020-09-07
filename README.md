@@ -1,6 +1,6 @@
 # 2020秋季水下目标检测算法赛  underwater object detection algorithm contest Baseline <font color=red>**A榜 mAP 50.15 B榜 mAP 49.69**</font><br /> 
 
-## base: https://github.com/zhengye1995/underwater-object-detection(https://github.com/zhengye1995/underwater-object-detection)
+## base: underwater-object-detection(https://github.com/zhengye1995/underwater-object-detection)
 
 ## 代码内容和trick：
 
@@ -132,19 +132,19 @@
 
     1. 运行:
     
-        r50:
+       r50:
 
-        chmod +x tools/dist_test.sh
+       chmod +x tools/dist_test.sh
 
-        ./tools/dist_test.sh configs/underwater/cas_r50/cascade_rcnn_r50_fpn_1x_dcn_gc_data_aug_bboxj_testA.py work_dirs/cascade_rcnn_r50_fpn_1x_dcn_gc_data_aug_bboxj_testA/epoch_12.pth 1 --json_out results/cascade_rcnn_r50_testB.json
+       ./tools/dist_test.sh configs/underwater/cas_r50/cascade_rcnn_r50_fpn_1x_dcn_gc_data_aug_bboxj_testA.py work_dirs/cascade_rcnn_r50_fpn_1x_dcn_gc_data_aug_bboxj_testA/epoch_12.pth 1 --json_out results/cascade_rcnn_r50_testB.json
 
         (上面的4是我的gpu数量，请自行修改)
         
-        r101:
+       r101:
 
-        chmod +x tools/dist_test.sh
+       chmod +x tools/dist_test.sh
 
-        ./tools/dist_test.sh configs/underwater/cas_r101/cascade_rcnn_r101_fpn_1x_dcn_gc_data_aug_bboxj_testB.py work_dirs/cascade_rcnn_r101_fpn_1x_dcn_gc_data_aug_bboxj_testA/epoch_12.pth 1 --json_out results/cascade_rcnn_r101_testB.json
+       ./tools/dist_test.sh configs/underwater/cas_r101/cascade_rcnn_r101_fpn_1x_dcn_gc_data_aug_bboxj_testB.py work_dirs/cascade_rcnn_r101_fpn_1x_dcn_gc_data_aug_bboxj_testA/epoch_12.pth 1 --json_out results/cascade_rcnn_r101_testB.json
         (上面的1是我的gpu数量，请自行修改)
 
     2. 预测结果文件会保存在 /results 目录下
@@ -159,7 +159,7 @@
 
    - **模型融合(融合的是json文件，修改json文件的名称请打开json_tige.py进行修改)**
 
-        python tools/json_toge.py 
+       python tools/json_toge.py 
     
 
 ## Contact
@@ -167,3 +167,4 @@
     author：ymzis69
 
     email：1750950070@qq.com
+# underwater-object-detection-2020
