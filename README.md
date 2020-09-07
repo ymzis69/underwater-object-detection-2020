@@ -58,6 +58,15 @@
   - (B榜)将官方提供的B榜数据解压到data目录中，产生：
 
     test-B-image
+
+
+  - 在代码根目录下新建work_dirs文件夹,用来存放checkpoints
+  - 进入work_dirs文件夹,创建文件夹:
+
+     cascade_rcnn_r50_fpn_1x_dcn_gc_data_aug_bboxj_testA
+
+     cascade_rcnn_r101_fpn_1x_dcn_gc_data_aug_bboxj_testA
+
     
 - **label文件格式转换**
 
